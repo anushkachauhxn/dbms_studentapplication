@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMQg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuXMQg.ttf) format('truetype');
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "open sans", helvetica, arial, sans;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1619972898592-5de4b1c68025?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: aliceblue;
+  padding: 10px 80px 10px 80px;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+  border-radius: 0.25em;
+}
+input[type="text"] {
+  width: 250px;
+}
+textarea {
+  height: 150px;
+  min-width: 500px;
+}
+select,
+select:focus {
+  outline: none;
+  border: none;
+  border-radius: 0.25em;
+  padding: 5px 2px 5px 2px;
+  margin: 5px 0px;
+  background-color: aliceblue;
+}
+table {
+  width: 100%;
+  color: black;
+  background-color: aliceblue;
+  border-collapse: collapse;
+  border-radius: 0.25em;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px black;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: auto;
+  padding: 0 10px;
+}
+table th input[type="text"],
+table td input[type="text"],
+table th textarea,
+table td textarea {
+  width: 100%;
+  height: 100%;
+}
+table th input[type="date"],
+table td input[type="date"] {
+  height: 100%;
+}
+table tr {
+  height: 54px;
+}
+.student-details,
+.jee-details,
+.hostel-details,
+.education-details-2,
+.declaration-details {
+  position: relative;
+}
+.student-details input,
+.jee-details input,
+.hostel-details input,
+.education-details-2 input,
+.declaration-details input,
+.student-details select,
+.jee-details select,
+.hostel-details select,
+.education-details-2 select,
+.declaration-details select,
+.student-details div.upload-file,
+.jee-details div.upload-file,
+.hostel-details div.upload-file,
+.education-details-2 div.upload-file,
+.declaration-details div.upload-file {
+  position: absolute;
+  left: 60%;
+}
+.student-details label p,
+.jee-details label p,
+.hostel-details label p,
+.education-details-2 label p,
+.declaration-details label p {
+  font-size: 14px;
+}
+.fees-details th {
+  width: 25%;
+}
+.fees-details th#sr-no {
+  width: 5%;
+}
+.upload-file {
+  display: inline-block;
+  background-color: aliceblue;
+  color: black;
+  font-size: 14px;
+  padding: 5px 12px;
+  margin-top: -2px;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+.upload-file input[type="file"] {
+  display: none;
+}
+.submit-form {
+  padding-top: 20px;
+}
+.submit-form #submit {
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+}
+.admin-login {
+  position: absolute;
+  right: 80px;
+  padding-top: 20px;
+}
+.admin-login #admin {
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+}
+.copyright-text {
+  font-size: 14px;
+}
