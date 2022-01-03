@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./css/styles2.css">
     </head>
     <body>
-        <form action = "logout.php" method="POST"> 
+        <form action = "php/logout.php" method="POST"> 
             <div class="logout">
                 <input type="submit" value="Log Out" name="logout">
             </div>
@@ -17,7 +17,7 @@
 
         <?php 
             session_start();
-            require 'config.php';
+            require 'php/config.php';
 
             if (isset($_SESSION['login_user'])) {
                 $userLoggedIn = $_SESSION['login_user'];
