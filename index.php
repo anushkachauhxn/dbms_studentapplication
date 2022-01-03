@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <form>
+        <form action="php/admin.php" method="POST">
             <div class="admin-login">
                 <input type="submit" name="admin" value="Admin" id="admin">
             </div>
@@ -31,7 +31,7 @@
         <main class="container">
             <p>Fill this application to apply for an admission IIIT Nagpur's BTech Programme.</p>
     
-            <form class="admission-form">
+            <form action="php/feedback.php" method="POST" class="admission-form">
                 <div class="student-details">
                     <h3>Student Details</h3>
                     <label>Student Name
