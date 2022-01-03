@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "open sans", helvetica, arial, sans;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1619972898592-5de4b1c68025?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: aliceblue;
+  padding: 10px 80px 10px 80px;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+  border-radius: 0.25em;
+}
+
+input[type="text"] {
+  width: 250px;
+}
+
+textarea {
+  height: 150px;
+  min-width: 500px;
+}
+
+select,
+select:focus {
+  outline: none;
+  border: none;
+  border-radius: 0.25em;
+  padding: 5px 2px 5px 2px;
+  margin: 5px 0px;
+  background-color: aliceblue;
+}
+
+table {
+  width: 100%;
+  color: black;
+  background-color: aliceblue;
+  border-collapse: collapse;
+  border-radius: 0.25em;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px black;
+  th,
+  td {
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: auto;
+    padding: 0 10px;
+    input[type="text"],
+    textarea {
+      width: 100%;
+      height: 100%;
+    }
+    input[type="date"] {
+      height: 100%;
+    }
+  }
+  tr {
+    height: 54px;
+  }
+}
+
+.student-details,
+.jee-details,
+.hostel-details,
+.education-details-2,
+.declaration-details {
+  position: relative;
+  input,
+  select,
+  div.upload-file {
+    position: absolute;
+    left: 60%;
+  }
+  label p {
+    font-size: 14px;
+  }
+}
+
+.fees-details {
+  th {
+    width: 25%;
+  }
+  th#sr-no {
+    width: 5%;
+  }
+}
+
+// .address-details {}
+// .education-details {}
+// .health-details {}
+
+.upload-file {
+  display: inline-block;
+  background-color: aliceblue;
+  color: black;
+  font-size: 14px;
+  padding: 5px 12px;
+  margin-top: -2px;
+  border-radius: 0.25em;
+
+  input[type="file"] {
+    display: none;
+  }
+  cursor: pointer;
+}
+
+.submit-form {
+  padding-top: 20px;
+  #submit {
+    font-size: medium;
+    font-weight: bold;
+    width: 100px;
+  }
+}
+
+.admin-login {
+  position: absolute;
+  right: 80px;
+  padding-top: 20px;
+  #admin {
+    font-size: medium;
+    font-weight: bold;
+    width: 100px;
+  }
+}
+
+.copyright-text {
+  font-size: 14px;
+}
