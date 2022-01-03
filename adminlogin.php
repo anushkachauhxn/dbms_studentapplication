@@ -11,7 +11,7 @@
     <body>
         <div class="login-form">
             <h2>Login to your account</h2>
-            <form>
+            <form action="php/checklogin.php" method="POST">
                 <label>Email
                     <input type="email" id="email" placeholder="email" name="email">
                 </label>
