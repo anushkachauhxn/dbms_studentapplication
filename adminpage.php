@@ -15,7 +15,7 @@
             </div>
         </form>
     
-        <table border="1" id="students-table">
+        <table border="1" id="data-table">
             <tr>
                 <th colspan='15'>Student Details</th>
                 <th colspan='8'>JEE Details</th>
